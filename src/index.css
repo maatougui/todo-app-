@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+
+.text-container {
+  text-align: right;
+  margin-right: 10%;
+  font-size:410%
+}
+.App-Container {
+  border: 1px solid rgb(70, 150, 229);
+  background-color: rgb(70, 150, 229);
+  text-align: right;
+  margin-left: 10%;
+}
+.input-submit {
+  font-size: 40px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.para{
+  color: white;
+  margin: 0;
+  font-size: 141%;
+}
+.AddItem{
+  width:500px
+}
+.Add-Name{
+  width: 60%;
+  height:30%
+}
+.delet{
+  font-size: 180%;
+  border:1px solid black
 }
